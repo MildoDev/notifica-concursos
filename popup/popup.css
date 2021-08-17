@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-size: 14px;
+}
+
+#filters * {
+  margin: 0px;
+}
+
+#examsTable_filter * {
+  width: 100% !important;
+}
+
+#examsTable {
+  width: 800px !important;
+  height: 511px;
+}
+
+thead > tr {
+  height: 40px;
+}
+
+th {
+  background-color: rgb(240, 240, 240);
+}
+
+td {
+  background-color: rgb(240, 240, 240);
+  max-width: 519px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pagination {
+  margin-bottom: 7px;
+}

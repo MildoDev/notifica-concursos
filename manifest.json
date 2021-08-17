@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Notifica Concursos",
+  "version": "1.0.0",
+
+  "description": "Essa extensão notifica quando um novo concurso abre e também permite que você busque e filtre concursos abertos.",
+  "author": "Romildo Oliveira Souza Júnior",
+  "homepage_url": "https://github.com/MildoDev/notifica-concursos/",
+
+  "icons": {
+    "256": "icons/notification.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage",
+    "https://*.pciconcursos.com.br/*"
+  ],
+
+  "background": {
+    "page": "background/background.html",
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  }
+}
